@@ -1,0 +1,37 @@
+
+.md-content {
+    margin-left: 0;
+}
+
+.rounded-image {
+    border-radius: 5px;  /* Passe den Wert für die Rundung an */
+  }
+
+.md-post__header {
+    border-bottom: 1px solid #696969; /* Hellgraue Farbe */
+    padding-bottom: 10px; /* Abstand zwischen Header und Trennlinie */
+    margin-bottom: 10px; /* Abstand zwischen Trennlinie und nachfolgendem Inhalt */
+}
+[data-md-color-scheme="slate"] {
+    --md-hue: 210; 
+  }
+
+.avatar {
+    width: 150px; /* Festgelegte Breite des Avatars */
+    height: 150px; /* Festgelegte Höhe des Avatars */
+    border-radius: 50%; /* Rundes Bild durch 50% border-radius */
+    object-fit: cover; /* Bild bleibt innerhalb des Containers */
+    border: 2px solid #ccc; /* Optional: Rahmen um das Bild */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Schatteneffekt */
+}
+.badge {
+    width: 100px;
+}
+.md-grid {
+    max-width: 1440px; 
+  }
+/*.md-main__inner {
+    max-width: 800px;
+    display: flex;
+    justify-content: flex-end;
+}*/

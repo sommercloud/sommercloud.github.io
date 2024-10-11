@@ -1,0 +1,131 @@
+site_name: SOMMERCLOUD
+site_description: "another Blog about Clouds and IT"
+site_url: https://sommercloud.de
+theme:
+  name: material
+  custom_dir: docs/overrides
+  icon:
+    logo: fontawesome/solid/cloud-sun
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  favicon: images/favicon.ico
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      toggle:
+        icon: material/lightbulb 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tracking
+
+    
+  font:
+    text: Quicksand
+    code: Source Code Pro
+plugins:
+  - blog:
+      blog_dir: .
+      post_url_format: "{categories}/{slug}"
+      archive: false
+      post_date_format: long
+      post_url_date_format: yyyy
+      pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
+      authors_file: "{blog}/.authors.yml"
+  - search
+  - tags
+  - privacy
+
+nav:
+  - Blog: index.md
+  - About: about.md
+
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    cookies:
+      analytics: Microsoft Clarity
+    
+  analytics: 
+    provider: custom
+    property: clarity
+    
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/peter-sommer-3170a8139/
+
+  generator: false
+  
+copyright: >
+  &copy; 2024 Peter Sommer –
+  <a href="#__consent">Change cookie settings</a> </br>
+  <a href="https://squidfunk.github.io/mkdocs-material/"><img src="https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white" alt="Built with Material for MkDocs" ></a>
+  
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: "#"
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+
+hooks:
+  - hooks/socialmedia.py
+
+extra_css:
+  - css/extra.css
