@@ -30,6 +30,11 @@
 .md-grid {
     max-width: 1440px; 
   }
+
+.posts_header {
+    width: 300px
+    
+}
 /*.md-main__inner {
     max-width: 800px;
     display: flex;
