@@ -44,9 +44,9 @@ hide:
 ### :material-certificate-outline: Zertifizierungen
 - Dell Integrated System for Microsoft Azure Stack HCI Deployment
 - Microsoft Certified: Azure Fundamentals (AZ-900)
-- Veeam Certified Engineer 2021 (VMCE 2021) v11
-- VMware Certified Professional - Data Center Virtualization 2021 (VCP-DCV 2021)
 - VMware Certified Professional - Data Center Virtualization 2022 (VCP-DCV 2022)
+- VMware Certified Professional - Data Center Virtualization 2021 (VCP-DCV 2021)
+- Veeam Certified Engineer 2021 (VMCE 2021) v11
 - DEA-1TT4 - Associate - Information Storage and Management Version 4.0
 - DES-1221 - Specialist - Implementation Engineer, PowerStore Solutions
 - Sophos Central Endpoint and Server - Engineer

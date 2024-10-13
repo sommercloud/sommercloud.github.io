@@ -4,4 +4,4 @@ hide:
   - toc
 ---
 
-**...Clouds, Server und IT-Zauberei**
+**...Clouds, Server und IT**

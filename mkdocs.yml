@@ -1,5 +1,5 @@
-site_name: PETER SOMMER
-site_description: "Technical Blog"
+site_name: PETER SOMMER - Technical Blog
+site_description: "...Clouds, Server und IT-Wahnsinn"
 site_url: https://sommercloud.de
 theme:
   name: material
