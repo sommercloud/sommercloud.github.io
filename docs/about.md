@@ -4,23 +4,44 @@ hide:
   - toc
 ---
 
-#About Me
+#Über mich
 
 ![Profile Picture](images/avatar.jpg){ .avatar }
 
 **Peter Sommer** </br>
-:fontawesome-solid-location-dot: Germany
+:fontawesome-solid-location-dot: Frankfurt
 |
 :fontawesome-brands-linkedin: [LinkedIN](https://www.linkedin.com/in/peter-sommer-3170a8139/)
 |
 :material-office-building-outline: Medialine AG
 
-## IT Consultant for **Datacenter**, **Virtualization**, and **Cloud Infrastructure**
+## IT Consultant für **Datacenter**, **Virtualisierung**, and **Cloud Infrastruktur**
 
-As an IT consultant specializing in datacenter technologies, virtualization, and cloud infrastructure, I bring a wealth of experience in optimizing and implementing advanced solutions. My expertise lies in Microsoft virtualization technologies such as Hyper-V, Storage Spaces Direct, and Azure Stack HCI, where I focus on enhancing IT systems to meet evolving business needs and drive innovation.
+```json linenums="1"
+{
+  "consultant_profile": {
+    "name": "Peter Sommer",
+    "location": "Frankfurt am Main, DE",
+    "employer": "Medialine AG",
+    "role": "Consultant Infrastructure and Private Cloud",
+    "experience": {
+      "background": [
+        "On-Premise Datacenter: Server, Storage, Netzwerk",
+        "Microsoft Virtualisierung: Hyper-V, Storage Spaces Direct",
+        "Netzwerkadministration und Infrastruktur"
+      ],
+      "current_focus": [
+        "Azure Hybrid: Azure Stack HCI, Azure ARC",
+        "Integration von Cloud- und On-Premises-Technologien",
+        "Datacenter Migrationen"
+      ]
+    },
+  }
+}
+```
 
 
-### :material-certificate-outline: Certifications
+### :material-certificate-outline: Zertifizierungen
 - Dell Integrated System for Microsoft Azure Stack HCI Deployment
 - Microsoft Certified: Azure Fundamentals (AZ-900)
 - Veeam Certified Engineer 2021 (VMCE 2021) v11

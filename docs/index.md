@@ -4,4 +4,4 @@ hide:
   - toc
 ---
 
-**...another Blog about Clouds and IT**
+**...Clouds, Server und IT-Zauberei**
