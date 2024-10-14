@@ -10,9 +10,9 @@ categories:
 
 
 
-# Hello world!
+# Hallo Welt!
 
-[![HCI TNT](/images/hci_tnt.png){ align=left width="300" .rounded-image }](/hello/hello-world)
+[![HCI TNT](/images/hci_tnt.png){ align=left width="200" .rounded-image }](/hello/hello-world)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec
 maximus ex. Sed consequat, nulla quis malesuada dapibus, elit metus vehicula
