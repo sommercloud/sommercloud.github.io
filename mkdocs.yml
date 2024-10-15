@@ -51,6 +51,11 @@ plugins:
   - search
   - tags
   - privacy
+  - rss:
+        match_path: "posts/.*"
+        date_from_meta:
+          as_creation: date.created
+          as_update: date.updated
 
 nav:
   - Blog: index.md
@@ -73,6 +78,8 @@ extra:
   social:
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/peter-sommer-3170a8139/
+    - icon: fontawesome/solid/rss
+      link: https://sommercloud.de/feed_rss_created.xml
 
   generator: false
   
