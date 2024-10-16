@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://sommercloud.de/</loc>
+         <lastmod>2024-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sommercloud.de/about/</loc>
+         <lastmod>2024-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sommercloud.de/allgemein/tools/</loc>
+         <lastmod>2024-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sommercloud.de/category/allgemein/</loc>
+         <lastmod>2024-10-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sommercloud.de/category/blog/</loc>
+         <lastmod>2024-10-16</lastmod>
+    </url>
+</urlset>
