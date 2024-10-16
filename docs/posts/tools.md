@@ -5,6 +5,11 @@ authors:
   - Peter
 categories:
   - Allgemein
+  - Blog
+tags:
+  - Tools
+  - Know-How
+  - Administration
 slug: tools
 readtime: 5
 ---
@@ -12,13 +17,13 @@ readtime: 5
 
 # Welche Tools setze ich in meiner täglichen Arbeit ein?
 
-[![Essential Tools](/images/posts/tools.png){ align=left width="200" .rounded-image }](/allgemein/tools)
+![Essential Tools](/images/posts/tools.png){ align=left width="200" .rounded-image }
 
 Ich finde es immer spannend, zu sehen, welche Tools andere in ihrer täglichen Arbeit nutzen. Oft entdeckt man dadurch neue Möglichkeiten, den eigenen Workflow zu optimieren. Zuletzt habe ich einen tollen Artikel darüber von meinem guten Freund **Cristian Schmitt Nieto** gelesen. Cristian betreibt einen sehr empfehlenswerten [Blog](https://schmitt-nieto.com) rund um Azure – definitiv einen Blick wert!
 
-<!-- more -->
-
 Im Folgenden möchte ich euch meine am häufigsten verwendeten Tools vorstellen. Falls ihr Anregungen oder weitere Empfehlungen habt, schreibt mir gerne!
+
+<!-- more -->
 
 ## mRemoteNG
 Dieses Tool ist für mich ein unverzichtbarer Begleiter. Es ermöglicht die einfache Verwaltung meiner zahlreichen RDP-Sitzungen mit wenig Overhead der Software selbst. Was mRemoteNG besonders stark macht, ist die strukturierte Organisation von Sessions in Ordnern, mit Icons und individuellen Beschreibungen. Zudem können Protokolle wie SSH oder VNC problemlos integriert werden, was es zu einem echten Multitalent macht. Ich nutze es schon seit Jahren und es ist definitiv mein meistgenutztes Tool.

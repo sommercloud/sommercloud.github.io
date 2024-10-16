@@ -29,6 +29,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
+    - navigation.footer
     - toc.follow
     - search.suggest
     - content.code.copy
@@ -56,6 +57,20 @@ plugins:
         date_from_meta:
           as_creation: date.created
           as_update: date.updated
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: auto
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
 
 nav:
   - Blog: index.md
@@ -78,15 +93,17 @@ extra:
   social:
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/peter-sommer-3170a8139/
+    - icon: /fontawesome/regular/envelope
+      name: Sende mir eine E-Mail
+      link: mailto:peter@sommer-email.de
     - icon: fontawesome/solid/rss
       link: https://sommercloud.de/feed_rss_created.xml
 
-  generator: false
+
   
 copyright: >
   &copy; 2024 Peter Sommer –
-  <a href="#__consent">Cookie Einstellungen</a> </br>
-  <a href="https://squidfunk.github.io/mkdocs-material/"><img src="https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white" alt="Built with Material for MkDocs" ></a>
+  <a href="#__consent">Cookie Einstellungen</a>
   
 
 markdown_extensions:
