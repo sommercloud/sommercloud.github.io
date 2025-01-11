@@ -5,4 +5,4 @@ hide:
   - footer
 ---
 
-**...Clouds, Server und IT**
+**PETER SOMMER - Technical Blog**
