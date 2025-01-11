@@ -7,10 +7,10 @@ hide:
 
 #Über mich
 
-![Profile Picture](images/avatar.jpg){ .avatar }
+![Profile Picture](images/avatar.jpg){ .avatar .skip-lightbox}
 
 **Peter Sommer** </br>
-:fontawesome-solid-location-dot: Frankfurt
+:fontawesome-solid-location-dot: Frankfurt(Main)
 |
 :fontawesome-brands-linkedin: [LinkedIN](https://www.linkedin.com/in/peter-sommer-3170a8139/)
 |
@@ -18,28 +18,19 @@ hide:
 
 ## IT Consultant für **Datacenter**, **Virtualisierung**, and **Cloud Infrastruktur**
 
-```json linenums="1"
-{
-  "consultant_profile": {
-    "name": "Peter Sommer",
-    "location": "Frankfurt am Main, DE",
-    "employer": "Medialine AG",
-    "role": "Consultant Infrastructure and Private Cloud",
-    "experience": {
-      "background": [
-        "On-Premise Datacenter: Server, Storage, Netzwerk",
-        "Microsoft Virtualisierung: Hyper-V, Storage Spaces Direct",
-        "Netzwerkadministration und Infrastruktur"
-      ],
-      "current_focus": [
-        "Azure Hybrid: Azure Stack HCI, Azure ARC",
-        "Integration von Cloud- und On-Premises-Technologien",
-        "Datacenter Migrationen"
-      ]
-    },
-  }
-}
-```
+Ich bin Peter Sommer, ein leidenschaftlicher IT-Consultant mit über 8 Jahren Erfahrung in der Planung, Umsetzung und Optimierung moderner IT-Infrastrukturen. Aktuell liegt mein Fokus auf hybriden Datacenter-Lösungen unter der Verwendung von Microsoft Azure Hybrid.
+
+### :octicons-gear-24: Expertise
+
+- Microsoft Virtualisierung (Hyper-V, Storage Spaces Direct)
+- Microsoft Azure Local (vormals Azure Stack HCI)
+- Microsoft Azure ARC
+- Microsoft Windows Server Infrastruktur Dienste
+- Veeam Backup und Recovery
+- Sophos UTM/XG
+- Dell Server und Storage (PowerEdge, AX, APEX/MC)
+- Dell Network OS9, OS10
+- Ubiquiti Unifi
 
 
 ### :material-certificate-outline: Zertifizierungen

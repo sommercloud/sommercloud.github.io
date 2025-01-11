@@ -1,6 +1,6 @@
 site_name: PETER SOMMER - Technical Blog
-site_description: "...Clouds, Server und IT-Wahnsinn"
-site_url: https://sommercloud.de
+site_description: "...Clouds, Server und IT"
+site_url: https://blog.sommercloud.de
 theme:
   name: material
   custom_dir: docs/overrides
@@ -71,6 +71,8 @@ plugins:
       background: white
       shadow: true
       manual: false
+      skip_classes:
+        - skip-lightbox
 
 nav:
   - Blog: index.md
@@ -133,6 +135,9 @@ markdown_extensions:
   - pymdownx.snippets
   - admonition
   - pymdownx.details
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 hooks:
   - hooks/socialmedia.py
