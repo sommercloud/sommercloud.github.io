@@ -28,5 +28,5 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-rss-plugin
       - run: pip install mkdocs-glightbox
-      - run: mkdocs gh-deploy --force --cname blog.sommercloud.de
+      - run: mkdocs gh-deploy --force
     
