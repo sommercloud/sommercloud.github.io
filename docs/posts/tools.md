@@ -17,7 +17,7 @@ readtime: 5
 
 # Welche Tools setze ich in meiner täglichen Arbeit ein?
 
-![Essential Tools](/images/posts/tools.png){ align=left width="200" .rounded-image }
+![Essential Tools](../images/posts/tools.png){ align=left width="200" .rounded-image }
 
 Ich finde es immer spannend, zu sehen, welche Tools andere in ihrer täglichen Arbeit nutzen. Oft entdeckt man dadurch neue Möglichkeiten, den eigenen Workflow zu optimieren. Die Idee ist somit nicht neu, aber inspieriert hoffentlich den ein oder anderen.
 

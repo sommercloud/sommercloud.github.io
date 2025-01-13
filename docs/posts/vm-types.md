@@ -20,12 +20,17 @@ slug: vm-types-on-azure-local
 
 # Hyper-V VMs, Azure Arc-VMs und Azure Arc-enabled Servers: Unterschiede und Backup-Strategien
 
-![VM-Types](/images/posts/vm-types-title.png){ align=left width="200" .rounded-image }
+![VM-Types](../images/posts/vm-types-title.png){ align=left width="200" .rounded-image }
 
 Wer **Azure Local (vormals Azure Stack HCI)** einsetzt wurde spätestens mit der Version 23H2 mit verschiedenen VM-Typen konfrontiert. Auch die Frage warum meine VM auf einmal nicht im Azure Portal sichtbar ist oder auch nur an einer anderen Stelle bekomme ich oft gestellt. In folgendem Artikel möchte ich einen Überblick der möglichen VM-Typen in Bezug auf **Azure Local** und **Azure Arc** aufzeigen. Zusätzlich sollte bei **Backup und Recovery** verschiedene Besonderheiten beachtet werden.
 <!-- more -->
 
-![confused-empty-portal](/images/posts/confused-empty-portal.png){ align=left }
+<br>
+<br>
+
+![confused-empty-portal](../images/posts/confused-empty-portal.png){ align=left }
+
+<br>
 
 ## Übersicht
 
@@ -53,7 +58,8 @@ Unabhängig der Hostumgebung werden die Server oder VMs unter den Azure Arc Ress
 !!! tip "Azure Connected Machine Agent"
     Das Verbinden von Windows oder Linux Workloads mit Azure Arc ist ohne Kosten verbunden. Wer eine Zentrale Übersicht und Verwaltung seiner Server erzielen möchte, kann dies einzeln oder auch mittels Skript, GPO, Ansible usw. unkompliziert umsetzen. Ab Windows Server 2022 ist bereits ein Wizard zum vereinfachten Onboarding im Betriebssystem enthalten.
 
-![VM-Types-Overview](/images/posts/vm-types.png){ align=left }
+![VM-Types-Overview](../images/posts/vm-types.png){ align=left }
+
 
 ## Backup und Wiederherstellung in hybriden Umgebungen
 
@@ -67,7 +73,6 @@ Backup-Tools von Drittanbietern bieten robuste Lösungen für Hyper-V VMs. Für 
   - Aktuell gibt es **keine Möglichkeit**, eine wiederhergestellte Hyper-V VM in eine Azure Arc-VM zu konvertieren.  
   - Ein Workaround kann eine lokale "Migration" mittels **Azure Migrate** darstellen.
 
----
 
 ## Fazit
 
