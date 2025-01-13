@@ -1,4 +1,4 @@
-site_name: SOMMERCLOUD - IT Solutions
+site_name: SOMMERCLOUD
 site_description: "...Clouds, Server und IT"
 site_url: https://blog.sommercloud.de
 theme:
@@ -104,7 +104,7 @@ extra:
 
   
 copyright: >
-  &copy; 2024 Peter Sommer –
+  &copy; 2025 Peter Sommer –
   <a href="#__consent">Cookie Einstellungen</a>
   
 
