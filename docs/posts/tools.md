@@ -19,7 +19,7 @@ readtime: 5
 
 ![Essential Tools](/images/posts/tools.png){ align=left width="200" .rounded-image }
 
-Ich finde es immer spannend, zu sehen, welche Tools andere in ihrer täglichen Arbeit nutzen. Oft entdeckt man dadurch neue Möglichkeiten, den eigenen Workflow zu optimieren. Zuletzt habe ich einen tollen Artikel darüber von meinem guten Freund **Cristian Schmitt Nieto** gelesen. Cristian betreibt einen sehr empfehlenswerten [Blog](https://schmitt-nieto.com) rund um Azure – definitiv einen Blick wert!
+Ich finde es immer spannend, zu sehen, welche Tools andere in ihrer täglichen Arbeit nutzen. Oft entdeckt man dadurch neue Möglichkeiten, den eigenen Workflow zu optimieren. Die Idee ist somit nicht neu, aber inspieriert hoffentlich den ein oder anderen.
 
 Im Folgenden möchte ich euch meine am häufigsten verwendeten Tools vorstellen. Falls ihr Anregungen oder weitere Empfehlungen habt, schreibt mir gerne!
 
