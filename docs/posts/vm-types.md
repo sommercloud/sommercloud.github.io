@@ -23,9 +23,11 @@ slug: vm-types-on-azure-local
 ![VM-Types](../images/posts/vm-types-title.png){ align=left width="200" .rounded-image }
 
 Wer **Azure Local (vormals Azure Stack HCI)** einsetzt wurde spätestens mit der Version 23H2 mit verschiedenen VM-Typen konfrontiert. Auch die Frage warum meine VM auf einmal nicht im Azure Portal sichtbar ist oder auch nur an einer anderen Stelle bekomme ich oft gestellt. In folgendem Artikel möchte ich einen Überblick der möglichen VM-Typen in Bezug auf **Azure Local** und **Azure Arc** aufzeigen. Zusätzlich sollte bei **Backup und Recovery** verschiedene Besonderheiten beachtet werden.
+
 <!-- more -->
 
 <br>
+
 <br>
 
 ![confused-empty-portal](../images/posts/confused-empty-portal.png){ align=left }
