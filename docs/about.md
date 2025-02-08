@@ -16,7 +16,7 @@ hide:
 |
 :material-office-building-outline: Medialine AG
 
-## IT Consultant für **Datacenter**, **Virtualisierung**, and **Cloud Infrastruktur**
+## IT Consultant für **Datacenter**, **Virtualisierung**, und **Cloud Infrastruktur**
 
 Ich bin Peter Sommer, ein leidenschaftlicher IT-Consultant mit über 8 Jahren Erfahrung in der Planung, Umsetzung und Optimierung moderner IT-Infrastrukturen. Aktuell liegt mein Fokus auf hybriden Datacenter-Lösungen unter der Verwendung von Microsoft Azure Hybrid.
 
