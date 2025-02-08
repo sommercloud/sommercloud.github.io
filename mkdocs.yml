@@ -100,7 +100,7 @@ extra:
       name: Sende mir eine E-Mail
       link: mailto:peter@sommer-email.de
     - icon: fontawesome/solid/rss
-      link: https://sommercloud.de/feed_rss_created.xml
+      link: https://blog.sommercloud.de/feed_rss_created.xml
 
 
   
